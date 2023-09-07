@@ -8,6 +8,11 @@
     <artifactId>java-quality-env</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <packaging>pom</packaging>
+    <modules>
+        <module>child-container</module>
+    </modules>
+
     <properties>
         <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
