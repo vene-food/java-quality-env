@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>child-module</module>
+        <module>child-container</module>
     </modules>
 
     <properties>
