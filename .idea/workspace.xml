@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7598433-3ed5-46c6-8a09-2b5bfca6c97d" name="Changes" comment="" />
+    <list default="true" id="a7598433-3ed5-46c6-8a09-2b5bfca6c97d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/child-container/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/child-container/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -51,7 +55,7 @@
       <recent name="com.java.quality.env" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SomeTest.sum">
+  <component name="RunManager" selected="JUnit.env in child-container">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.java.quality.env.Main" />
       <module name="child-container" />
@@ -112,8 +116,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="env in child-container" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="child-container" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/child-container/src/test/java/com/java/quality/env" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.env in child-container" />
         <item itemvalue="JUnit.SomeTest.sum" />
         <item itemvalue="JUnit.MainTest" />
         <item itemvalue="JUnit.MainTest.test" />
@@ -131,5 +144,11 @@
       <updated>1694122584465</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_quality_env$env_in_child_container.ic" NAME="env in child-container Coverage Results" MODIFIED="1694240073475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/java_quality_env$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1694239921802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.java.quality.env.*</FILTER>
+    </SUITE>
   </component>
 </project>
