@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7598433-3ed5-46c6-8a09-2b5bfca6c97d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/child-container/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/child-container/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/child-container/src/main/java/com/java/quality/env/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/child-container/src/main/java/com/java/quality/env/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,14 @@
     "jdk.selected.JAVA_MODULE": "17"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.java.quality.env" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.MainTest.test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.java.quality.env.Main" />
