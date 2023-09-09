@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7598433-3ed5-46c6-8a09-2b5bfca6c97d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/child-container/src/main/java/com/java/quality/env/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/child-container/src/main/java/com/java/quality/env/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="a7598433-3ed5-46c6-8a09-2b5bfca6c97d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +51,7 @@
       <recent name="com.java.quality.env" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.test">
+  <component name="RunManager" selected="JUnit.SomeTest.sum">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.java.quality.env.Main" />
       <module name="child-container" />
@@ -63,6 +61,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="child-container" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.quality.env.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java.quality.env" />
+      <option name="MAIN_CLASS_NAME" value="com.java.quality.env.MainTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,8 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SomeTest.sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="child-container" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.quality.env.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.java.quality.env" />
+      <option name="MAIN_CLASS_NAME" value="com.java.quality.env.SomeTest" />
+      <option name="METHOD_NAME" value="sum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SomeTest.sum" />
+        <item itemvalue="JUnit.MainTest" />
         <item itemvalue="JUnit.MainTest.test" />
         <item itemvalue="Application.Main" />
       </list>
