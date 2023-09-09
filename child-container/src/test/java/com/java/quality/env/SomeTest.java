@@ -19,4 +19,21 @@ public class SomeTest {
         int res = some.sum(100, 120);
         assertEquals(220, res);
     }
+
+    @Test
+    public void rest() {
+        int res = some.resta(100, 120);
+        assertEquals(-20, res);
+    }
+
+    @Test
+    public void mult() {
+        int res = some.mult(100,50);
+        assertEquals(5000,res);
+    }
+
+    @Test
+    public void div() {
+
+    }
 }

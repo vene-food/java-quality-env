@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a7598433-3ed5-46c6-8a09-2b5bfca6c97d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/child-container/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/child-container/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +36,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -55,16 +54,19 @@
       <recent name="com.java.quality.env" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.env in child-container">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.quality.env.Main" />
+  <component name="RunManager" selected="JUnit.All in child-container">
+    <configuration name="All in child-container" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="child-container" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.quality.env.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in java-quality-env" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-quality-env" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,22 +82,6 @@
       <option name="PACKAGE_NAME" value="com.java.quality.env" />
       <option name="MAIN_CLASS_NAME" value="com.java.quality.env.MainTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="child-container" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.quality.env.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.java.quality.env" />
-      <option name="MAIN_CLASS_NAME" value="com.java.quality.env.MainTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in child-container" />
+        <item itemvalue="JUnit.All in java-quality-env" />
         <item itemvalue="JUnit.env in child-container" />
         <item itemvalue="JUnit.SomeTest.sum" />
         <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.test" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +133,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_quality_env$env_in_child_container.ic" NAME="env in child-container Coverage Results" MODIFIED="1694240073475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/java_quality_env$All_in_java_quality_env.ic" NAME="All in java-quality-env Coverage Results" MODIFIED="1694240719418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/java_quality_env$All_in_child_container.ic" NAME="All in child-container Coverage Results" MODIFIED="1694240727797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/java_quality_env$MainTest.ic" NAME="MainTest Coverage Results" MODIFIED="1694239921802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.java.quality.env.*</FILTER>
     </SUITE>
